@@ -1,33 +1,75 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BtAI</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="farfalla.png" alt="Logo farfalla" class="logo-img">
-            <span class="programming-symbol">&lt;</span><span class="butterfly">farfalla</span><span class="programming-symbol">&gt;</span>
-        </div>
-        <h1>Benvenuto</h1>
-    </header>
+/* Base styling */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Azzurro chiaro */
+}
 
-    <section class="updates">
-        <h2>Aggiornamenti</h2>
-        <!-- Qui puoi aggiungere video o notizie -->
-    </section>
+header {
+    background-color: #0066cc; /* Azzurro scuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 
-    <section class="home-buttons">
-        <button class="home-btn">Accedi</button>
-        <button class="about-btn">Chi siamo</button>
-    </section>
+h1 {
+    font-size: 3em;
+}
 
-    <footer>
-        <p>&copy; BtAI 2025</p>
-        <p>&copy; ScalaSword 2024-25</p>
-    </footer>
-</body>
-</html>
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.logo-img {
+    width: 50px;  /* Adatta la dimensione dell'immagine */
+    height: auto;
+    margin-right: 10px;  /* Spazio tra l'immagine e il testo */
+}
+
+.programming-symbol {
+    font-weight: bold;
+}
+
+.butterfly {
+    font-style: italic;
+    color: #ffcc00; /* Colore per la farfalla */
+}
+
+.home-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-btn, .about-btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-btn {
+    background-color: #ffcc00; /* Giallo per il tasto "Accedi" */
+}
+
+.about-btn {
+    background-color: #ff6600; /* Arancione per il tasto "Chi siamo" */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #003366; /* Blu scuro */
+    color: white;
+    padding: 10px;
+}
+
+.updates {
+    margin: 30px;
+    text-align: center;
+}
