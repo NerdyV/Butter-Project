@@ -1,0 +1,66 @@
+/* Base styling */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Azzurro chiaro */
+}
+
+header {
+    background-color: #0066cc; /* Azzurro scuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.programming-symbol {
+    font-weight: bold;
+}
+
+.butterfly {
+    font-style: italic;
+    color: #ffcc00; /* Colore per la farfalla */
+}
+
+.home-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-btn, .about-btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-btn {
+    background-color: #ffcc00; /* Giallo per il tasto "Accedi" */
+}
+
+.about-btn {
+    background-color: #ff6600; /* Arancione per il tasto "Chi siamo" */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #003366; /* Blu scuro */
+    color: white;
+    padding: 10px;
+}
+
+.updates {
+    margin: 30px;
+    text-align: center;
+}
